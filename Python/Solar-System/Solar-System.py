@@ -1,3 +1,5 @@
+# Show a small animation of Solar system using python turtle library
+
 import turtle as tur
 from math import *
 import random
@@ -96,4 +98,5 @@ while True:
 
     for index, planet in enumerate(planet_list):
         planet.move()
+
         planet.angle += radius_list[index]
